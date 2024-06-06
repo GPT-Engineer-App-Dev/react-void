@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Box p={5} shadow="md" borderWidth="1px" borderRadius="md">
+        <Box p={5} shadow="md" borderWidth="1px" borderRadius="md" bg="teal.500" color="white">
           <Heading as="h1" size="2xl" mb={4} textAlign="center">
             Hello, World!
           </Heading>
