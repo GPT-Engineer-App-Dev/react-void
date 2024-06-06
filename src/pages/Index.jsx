@@ -6,10 +6,10 @@ const Index = () => {
       <VStack spacing={4}>
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="md">
           <Heading as="h1" size="2xl" mb={4} textAlign="center">
-            Welcome to My App!
+            Hello, World!
           </Heading>
           <Text fontSize="lg" textAlign="center">
-            This is the starting point of your new journey.
+            Welcome to your new React application.
           </Text>
         </Box>
       </VStack>
